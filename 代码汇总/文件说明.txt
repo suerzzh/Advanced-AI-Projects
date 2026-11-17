@@ -1,0 +1,13 @@
+db文件夹存放的是sqlite数据库文件，存放用户信息表，本地存储。若需要对数据进行操作，可以使用navicat等工具连接。
+Font文件夹下是字体文件。
+models下存放模型权重
+save_data文件夹是导出保存文件的存放路径
+ui_images文件夹下是icon、背景图片
+main.py文件中主要是目标检测的后端处理逻辑，包括模型加载、对图片/视频/摄像头的检测等等。
+
+utils目录下：
+config.py是配置文件，保存模型的类别信息。
+database.py是数据库用户表的操作代码
+camera_rc.py、image_rc.py、camera.qrc、image_rc.qrc是QT resource资源文件。
+main_window.py、main_window.ui是可视化界面的代码和ui文件，包含各个按钮的大小位置、字体格式大小等，可对界面样式进行修改。
+

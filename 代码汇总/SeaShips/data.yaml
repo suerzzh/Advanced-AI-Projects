@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['bulk cargo carrier', 'container ship', 'fishing boat', 'general cargo ship', 'ore carrier', 'passenger ship']
+
+roboflow:
+  workspace: huisu
+  project: seaships-ilzvx-rbxpy
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/huisu/seaships-ilzvx-rbxpy/dataset/2

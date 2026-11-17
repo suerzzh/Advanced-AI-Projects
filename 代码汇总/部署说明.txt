@@ -1,0 +1,15 @@
+1、通过anaconda prompt进入项目工作目录
+2、安装依赖包
+conda activate 【虚拟环境名称】
+
+GPU版本：注意修改为你本机的cuda版本
+pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+CPU版本：
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+3、替换utils目录下config.py文件中的类别名称
+
+4、运行主程序
+python main.py
